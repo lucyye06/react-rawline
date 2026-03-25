@@ -30,7 +30,7 @@ const products: ProductType[] = [
   { name: "Rawline Ribbon Denim Pants", price: 1199, image: "src/assets/34.png", category: "pants" },
 
   // TSHIRT
-  { name: "Rawline Wear The Real 1.0", price: 599, image: "public/assets/1.png", category: "tshirt" },
+  { name: "Rawline Wear The Real 1.0", price: 599, image: "public/images/1.png", category: "tshirt" },
   { name: "Rawline Wear The Real 2.0", price: 599, image: "src/assets/3.png", category: "tshirt" },
   { name: "Rawline Keep Going", price: 599, image: "src/assets/4.png", category: "tshirt" },
   { name: "Rawline Brent", price: 599, image: "src/assets/5.png", category: "tshirt" },
