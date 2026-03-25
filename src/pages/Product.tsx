@@ -1,5 +1,40 @@
 import { useState } from "react";
+import img1 from "public/images/1.png";
+import img3 from "public/images/3.png";
+import img4 from "public/images/4.png";
+import img5 from "public/images/5.png";
+import img6 from "public/images/6.png";
+import img7 from "public/images/7.png";
+import img8 from "public/images/8.png";
+import img9 from "public/images/9.png";
+import img10 from "public/images/10.png";
 
+import img11 from "../assets/11.png";
+import img12 from "../assets/12.png";
+import img13 from "../assets/13.png";
+import img14 from "../assets/14.png";
+import img15 from "../assets/15.png";
+
+import img17 from "../assets/17.png";
+import img18 from "../assets/18.png";
+import img19 from "../assets/19.png";
+import img20 from "../assets/20.png";
+import img21 from "../assets/21.png";
+import img22 from "../assets/22.png";
+
+import img23 from "../assets/23.png";
+import img24 from "../assets/24.png";
+import img25 from "../assets/25.png";
+import img26 from "../assets/26.png";
+import img27 from "../assets/27.png";
+import img28 from "../assets/28.png";
+
+import img29 from "../assets/29.png";
+import img30 from "../assets/30.png";
+import img31 from "../assets/31.png";
+import img32 from "../assets/32.png";
+import img33 from "../assets/33.png";
+import img34 from "../assets/34.png";
 type ProductType = {
   name: string;
   price: number;
@@ -14,46 +49,46 @@ type ProductProps = {
 
 const products: ProductType[] = [
   // JORTS
-  { name: "Jorts Star Grey", price: 999, image: "src/assets/17.png", category: "jorts" },
-  { name: "Rawline Jorts Wash Blue", price: 899, image: "src/assets/18.png", category: "jorts" },
-  { name: "Rawline Jorts Classic", price: 899, image: "src/assets/19.png", category: "jorts" },
-  { name: "Rawline Jorts Red Star", price: 799, image: "src/assets/20.png", category: "jorts" },
-  { name: "Rawline Jorts Denim Black", price: 899, image: "src/assets/21.png", category: "jorts" },
-  { name: "Rawline Jorts Whitesh Star", price: 899, image: "src/assets/22.png", category: "jorts" },
+  { name: "Jorts Star Grey", price: 999, image: img17, category: "jorts" },
+  { name: "Rawline Jorts Wash Blue", price: 899, image: img18, category: "jorts" },
+  { name: "Rawline Jorts Classic", price: 899, image: img19, category: "jorts" },
+  { name: "Rawline Jorts Red Star", price: 799, image: img20, category: "jorts" },
+  { name: "Rawline Jorts Denim Black", price: 899, image: img21, category: "jorts" },
+  { name: "Rawline Jorts Whitesh Star", price: 899, image: img22, category: "jorts" },
 
   // PANTS
-  { name: "Rawline Ash Grey Pants", price: 1199, image: "src/assets/29.png", category: "pants" },
-  { name: "Rawline Vintage Wash Pants", price: 1199, image: "src/assets/30.png", category: "pants" },
-  { name: "Rawline Inspired 1990's Denim Pants", price: 1199, image: "/src/assets/31.png", category: "pants" },
-  { name: "Rawline Wide Grey Pants", price: 1199, image: "src/assets/32.png", category: "pants" },
-  { name: "Rawline Cargo Star Pants", price: 1199, image: "src/assets/33.png", category: "pants" },
-  { name: "Rawline Ribbon Denim Pants", price: 1199, image: "src/assets/34.png", category: "pants" },
+  { name: "Rawline Ash Grey Pants", price: 1199, image: img29, category: "pants" },
+  { name: "Rawline Vintage Wash Pants", price: 1199, image: img30, category: "pants" },
+  { name: "Rawline Inspired 1990's Denim Pants", price: 1199, image: img31, category: "pants" },
+  { name: "Rawline Wide Grey Pants", price: 1199, image: img32, category: "pants" },
+  { name: "Rawline Cargo Star Pants", price: 1199, image: img33, category: "pants" },
+  { name: "Rawline Ribbon Denim Pants", price: 1199, image: img34, category: "pants" },
 
   // TSHIRT
-  { name: "Rawline Wear The Real 1.0", price: 599, image: "public/images/1.png", category: "tshirt" },
-  { name: "Rawline Wear The Real 2.0", price: 599, image: "src/assets/3.png", category: "tshirt" },
-  { name: "Rawline Keep Going", price: 599, image: "src/assets/4.png", category: "tshirt" },
-  { name: "Rawline Brent", price: 599, image: "src/assets/5.png", category: "tshirt" },
-  { name: "Rawline Curse", price: 599, image: "src/assets/6.png", category: "tshirt" },
-  { name: "Rawline Typesh", price: 599, image: "src/assets/7.png", category: "tshirt" },
-  { name: "Rawline Hold On", price: 599, image: "src/assets/8.png", category: "tshirt" },
-  { name: "Rawline Embrace Ur Self", price: 599, image: "src/assets/9.png", category: "tshirt" },
-  { name: "Rawline Eyes Can Tell", price: 599, image: "src/assets/10.png", category: "tshirt" },
+  { name: "Rawline Wear The Real 1.0", price: 599, image: img1, category: "tshirt" },
+  { name: "Rawline Wear The Real 2.0", price: 599, image: img3, category: "tshirt" },
+  { name: "Rawline Keep Going", price: 599, image: img4, category: "tshirt" },
+  { name: "Rawline Brent", price: 599, image: img5, category: "tshirt" },
+  { name: "Rawline Curse", price: 599, image: img6, category: "tshirt" },
+  { name: "Rawline Typesh", price: 599, image: img7, category: "tshirt" },
+  { name: "Rawline Hold On", price: 599, image: img8, category: "tshirt" },
+  { name: "Rawline Embrace Ur Self", price: 599, image: img9, category: "tshirt" },
+  { name: "Rawline Eyes Can Tell", price: 599, image: img10, category: "tshirt" },
 
   // HOODIE
-  { name: "Rawline Wash Grey", price: 1499, image: "src/assets/23.png", category: "hoodie" },
-  { name: "Rawline Hoodie Grey", price: 1499, image: "src/assets/24.png", category: "hoodie" },
-  { name: "Rawline Silly Guy", price: 1499, image: "src/assets/25.png", category: "hoodie" },
-  { name: "Rawline Denim Blue Star", price: 1499, image: "src/assets/26.png", category: "hoodie" },
-  { name: "Rawline Wide Smile", price: 1499, image: "src/assets/27.png", category: "hoodie" },
-  { name: "Rawline Gradient Hoodie", price: 1499, image: "src/assets/28.png", category: "hoodie" },
+  { name: "Rawline Wash Grey", price: 1499, image: img23, category: "hoodie" },
+  { name: "Rawline Hoodie Grey", price: 1499, image: img24, category: "hoodie" },
+  { name: "Rawline Silly Guy", price: 1499, image: img25, category: "hoodie" },
+  { name: "Rawline Denim Blue Star", price: 1499, image: img26, category: "hoodie" },
+  { name: "Rawline Wide Smile", price: 1499, image: img27, category: "hoodie" },
+  { name: "Rawline Gradient Hoodie", price: 1499, image: img28, category: "hoodie" },
 
   // CAP
-  { name: "Rawline Classic White Cap", price: 399, image: "src/assets/11.png", category: "cap" },
-  { name: "Rawline Twink Cap", price: 399, image: "src/assets/12.png", category: "cap" },
-  { name: "Rawline Heart Cap", price: 399, image: "src/assets/13.png", category: "cap" },
-  { name: "Rawline Question Mark Cap", price: 399, image: "src/assets/14.png", category: "cap" },
-  { name: "Rawline Classic Star Cap", price: 399, image: "src/assets/15.png", category: "cap" },
+  { name: "Rawline Classic White Cap", price: 399, image: img11, category: "cap" },
+  { name: "Rawline Twink Cap", price: 399, image: img12, category: "cap" },
+  { name: "Rawline Heart Cap", price: 399, image: img13, category: "cap" },
+  { name: "Rawline Question Mark Cap", price: 399, image: img14, category: "cap" },
+  { name: "Rawline Classic Star Cap", price: 399, image: img15, category: "cap" },
 ];
 
 function Product({ showToast }: ProductProps) {
