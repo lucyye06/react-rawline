@@ -74,7 +74,7 @@ function Contact({ closeModal, showContactToast }: ContactProps) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="public/images/fb1.png" alt="Facebook" />
+          <img src="/images/fb1.png" alt="Facebook" />
         </a>
 
         <a
@@ -82,7 +82,7 @@ function Contact({ closeModal, showContactToast }: ContactProps) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="public/images/ig.png" alt="Instagram" />
+          <img src="/images/ig.png" alt="Instagram" />
         </a>
 
         <a
@@ -90,7 +90,7 @@ function Contact({ closeModal, showContactToast }: ContactProps) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="public/images/twit.png" alt="Twitter" />
+          <img src="/images/twit.png" alt="Twitter" />
         </a>
       </div>
     </div>

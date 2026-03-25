@@ -339,7 +339,7 @@ nav a:hover {
 }
 /* ENHANCED PRODUCTS SECTION */
 #categories {
-  background: url("public/images/str.png") center/cover no-repeat;
+  background: url("/images/str.png") center/cover no-repeat;
   background-attachment: scroll;
   position: relative;
   padding: 80px 20px;

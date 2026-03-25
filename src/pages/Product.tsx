@@ -41,12 +41,12 @@ const products: ProductType[] = [
   { name: "Rawline Eyes Can Tell", price: 599, image: "/images/10.png", category: "tshirt" },
 
   // HOODIE
-  { name: "Rawline Wash Grey", price: 1499, image: "src/assets/23.png", category: "hoodie" },
-  { name: "Rawline Hoodie Grey", price: 1499, image: "src/assets/24.png", category: "hoodie" },
-  { name: "Rawline Silly Guy", price: 1499, image: "src/assets/25.png", category: "hoodie" },
-  { name: "Rawline Denim Blue Star", price: 1499, image: "src/assets/26.png", category: "hoodie" },
-  { name: "Rawline Wide Smile", price: 1499, image: "src/assets/27.png", category: "hoodie" },
-  { name: "Rawline Gradient Hoodie", price: 1499, image: "src/assets/28.png", category: "hoodie" },
+  { name: "Rawline Wash Grey", price: 1499, image: "/images/23.png", category: "hoodie" },
+  { name: "Rawline Hoodie Grey", price: 1499, image: "/images/24.png", category: "hoodie" },
+  { name: "Rawline Silly Guy", price: 1499, image: "/images/25.png", category: "hoodie" },
+  { name: "Rawline Denim Blue Star", price: 1499, image: "/images/26.png", category: "hoodie" },
+  { name: "Rawline Wide Smile", price: 1499, image: "/images/27.png", category: "hoodie" },
+  { name: "Rawline Gradient Hoodie", price: 1499, image: "/images/28.png", category: "hoodie" },
 
   // CAP
   { name: "Rawline Classic White Cap", price: 399, image: "/images/11.png", category: "cap" },

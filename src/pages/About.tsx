@@ -17,7 +17,7 @@ function About() {
       </div>
 
       <div className="about-image">
-        <img src="src/assets/street1.png" alt="RAWLINE streetwear" />
+        <img src="/images/street1.png" alt="RAWLINE streetwear" />
       </div>
     </section>
   );
